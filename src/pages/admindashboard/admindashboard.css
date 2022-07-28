@@ -1,0 +1,126 @@
+.admindashboard{
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/3490393/pexels-photo-3490393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.workerslist{
+  margin-left: 10px;
+  width: 60%;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  background-color: rgb(194, 218, 216);
+}
+
+.addWorker{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  background-color: rgb(194, 218, 216);
+  margin: 10px;
+  width: 35%;
+}
+
+.addWorkerForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addWorkerForm > label{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.addWorkerForm > button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #5adb7e;
+  border-radius: 5px;
+  margin-left: 0px;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.addWorkerForm > input{
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+	margin: 0 auto;
+  text-align: center;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+
+.workerslist > h2{
+  text-align: center;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.workerhead{
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Open Sans', sans-serif;  
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.heading{
+  width:25%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.manageworkers{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.manageSpaces{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+.spacesList{
+  margin-left: 10px;
+  width: 60%;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  background-color: rgb(194, 218, 216);
+}
+
+.spacesList > h2{
+  text-align: center;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.spacesHeader{
+  position: relative;
+  border-bottom: 2px solid black;
+  text-align: center;
+
+}
+
+.spacesHeader > button{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  background-color: #5adb7e;
+  border-radius: 5px;
+  margin-left: 0px;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}

@@ -1,0 +1,24 @@
+.worker{
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.detail{
+  width:25%;
+  text-align: center;
+}
+
+.buttonW{
+  position: relative;
+  width: 25%;
+  text-align: center;
+}
+
+.removeWorkerButton{
+  background-color: #ec5012;
+  border-radius: 5px;
+  margin-left: 0px;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}

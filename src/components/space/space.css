@@ -1,0 +1,34 @@
+.space{
+  margin-bottom: 10px;
+}
+.s_no{
+  text-align: center;
+  font-weight: bold;
+}
+.slots{
+  margin: 5px;
+  border: 2px solid black;
+  background-color: bisque;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.slotsList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.spaceHeader{
+  position: relative;
+}
+
+.spaceHeader > button{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  background-color: #ec5012;
+  border-radius: 5px;
+  margin-left: 0px;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
